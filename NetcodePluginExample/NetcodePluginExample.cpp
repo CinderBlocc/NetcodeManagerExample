@@ -30,7 +30,7 @@ void NetcodePluginExample::RequestBall()
     PriWrapper MyPRI = MyCar.GetPRI();
     if(MyPRI.IsNull()) { return; }
 
-    Netcode->SendMessage("give me ball");
+    Netcode->SendMessage("give me the ball");
 }
 
 // FULFILL REQUEST //
@@ -38,7 +38,7 @@ void NetcodePluginExample::OnMessageReceived(const std::string& Message, PriWrap
 {
     if(Sender.IsNull()) { return; }
 
-    if(Message == "give me ball")
+    if(Message == "give me the ball")
     {
         CarWrapper SenderCar = Sender.GetCar();
         if(SenderCar.IsNull()) { return; }
