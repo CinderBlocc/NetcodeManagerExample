@@ -12,19 +12,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\NetcodeManager\NetcodeManager.cpp">
-      <Filter>Code\NetcodeManager</Filter>
-    </ClCompile>
     <ClCompile Include="NetcodePluginExample.cpp">
       <Filter>Code\Plugin</Filter>
     </ClCompile>
+    <ClCompile Include="..\NetcodeManager\NetcodeManager.cpp">
+      <Filter>Code\NetcodeManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\NetcodeManager\NetcodeManager.h">
-      <Filter>Code\NetcodeManager</Filter>
-    </ClInclude>
     <ClInclude Include="NetcodePluginExample.h">
       <Filter>Code\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NetcodeManager\NetcodeManager.h">
+      <Filter>Code\NetcodeManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
