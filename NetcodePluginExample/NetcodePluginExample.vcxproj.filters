@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{e7e1c174-6014-4a66-baf4-d8eaa868bc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Plugin">
+      <UniqueIdentifier>{dcaf594b-518f-4ed4-98e8-de4d143403d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\NetcodeManager">
+      <UniqueIdentifier>{ba34d66b-429b-47b1-a3cb-78ef3f25f7d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\NetcodeManager\NetcodeManager.cpp">
+      <Filter>Code\NetcodeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NetcodePluginExample.cpp">
+      <Filter>Code\Plugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\NetcodeManager\NetcodeManager.h">
+      <Filter>Code\NetcodeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NetcodePluginExample.h">
+      <Filter>Code\Plugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
